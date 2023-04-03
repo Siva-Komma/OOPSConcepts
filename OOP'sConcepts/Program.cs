@@ -11,7 +11,7 @@ namespace OOP_sConcepts
         static void Main(string[] args)
         {
             Console.WriteLine("Welome to OOPs Concepts");
-            Console.WriteLine("1.Class and Object\n2.Inheritance\n3.Polymorphism overriding Overloading\n4.Encapsulation\n");
+            Console.WriteLine("1.Class and Object\n2.Inheritance\n3.Polymorphism overriding Overloading\n4.Encapsulation\n5.Abstraction\n");
             Console.WriteLine("Choose Your Option");
             int option = Convert.ToInt32(Console.ReadLine());
             switch(option)
@@ -48,6 +48,12 @@ namespace OOP_sConcepts
                     encapsulation.Age = 22;
                     Console.WriteLine("Name of the Student: " + encapsulation.Name);
                     Console.WriteLine("Age of the Student: " + encapsulation.Age);
+                    break;
+                case 5:
+                    //Abstraction
+                    VehiclesModel vehicles = new VehiclesModel();
+                    vehicles.VehicleType();
+                    vehicles.VehiclesDetails();
                     break;
             }
             Console.ReadLine();
