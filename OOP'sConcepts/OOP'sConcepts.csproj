@@ -49,6 +49,8 @@
     <Compile Include="PrintNumbers.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TypesOfMethods.cs" />
+    <Compile Include="TypesofVariables.cs" />
     <Compile Include="Vehicle.cs" />
     <Compile Include="Vehicles.cs" />
   </ItemGroup>

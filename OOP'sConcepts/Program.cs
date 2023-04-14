@@ -11,7 +11,7 @@ namespace OOP_sConcepts
         static void Main(string[] args)
         {
             Console.WriteLine("Welome to OOPs Concepts");
-            Console.WriteLine("1.Class and Object\n2.Inheritance\n3.Polymorphism overriding Overloading\n4.Encapsulation\n5.Abstraction\n");
+            Console.WriteLine("1.Class and Object\n2.Inheritance\n3.Polymorphism overriding Overloading\n4.Encapsulation\n5.Abstraction\n6.Types of Variables\n7.TypesofMethods");
             Console.WriteLine("Choose Your Option");
             int option = Convert.ToInt32(Console.ReadLine());
             switch(option)
@@ -54,6 +54,17 @@ namespace OOP_sConcepts
                     VehiclesModel vehicles = new VehiclesModel();
                     vehicles.VehicleType();
                     vehicles.VehiclesDetails();
+                    break;
+                case 6:
+                    //Types of Variables
+                    TypesofVariables.Variables();
+                    break;
+                case 7:
+                    //TypesofMethods
+                    //Static Method Parameterised Method
+                    TypesOfMethods methods = new TypesOfMethods();
+                    methods.StdDetail();
+                    TypesOfMethods.StdDetails(18,100);
                     break;
             }
             Console.ReadLine();
